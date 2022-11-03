@@ -1,0 +1,18 @@
+<table class="table-vivero">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nombre común</th>
+      <th scope="col">Tipo</th>
+      <th scope="col">Clima</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let planta of plantas">
+      <th scope="row">{{ planta.id }}</th>
+      <td>{{ planta.nombre_comun }}</td>
+      <td>{{ planta.tipo }}</td>
+      <td>{{ planta.clima }}</td>
+    </tr>
+  </tbody>
+</table>
