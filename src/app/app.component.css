@@ -1,0 +1,65 @@
+.title-font {
+  position: absolute;
+  width: 392px;
+  height: 48px;
+  left: 98px;
+  top: 14px;
+
+  font-family: 'Kaisei Decol';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 52px;
+
+  color: #000000;
+}
+
+.title-line {
+  position: absolute;
+  width: 1244.02px;
+  height: 0px;
+  left: 97.99px;
+  top: 82.54px;
+
+  background: #C4C4C4;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.photo {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1244px;
+  height: 323px;
+  left: 97px;
+  top: 119px;
+
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.photo-line {
+  position: absolute;
+  width: 1244.02px;
+  height: 0px;
+  left: 97.99px;
+  top: 435.54px;
+
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  position: absolute;
+  width: 645px;
+  height: 23px;
+  left: 407px;
+  top: 900px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+}

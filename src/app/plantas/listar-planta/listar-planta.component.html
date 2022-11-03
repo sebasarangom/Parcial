@@ -1,0 +1,23 @@
+<table class="table-vivero">
+  <thead class="table-dark fondo">
+    <tr>
+      <th class="left colId">#</th>
+      <th class="left colNombreComun">Nombre común</th>
+      <th class="left colTipo">Tipo</th>
+      <th class="left colClima">Clima</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let planta of plantas">
+      <td class="left colId">{{ planta.id }}</td>
+      <td class="left colNombreComun">{{ planta.nombre_comun }}</td>
+      <td class="left colTipo">{{ planta.tipo }}</td>
+      <td class="left colClima">{{ planta.clima }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="resumen">
+  Total plantas de interior: {{ totalPlantasInterior }} <br>
+  Total plantas de exterior: {{ totalPlantasExterior }}
+</p>

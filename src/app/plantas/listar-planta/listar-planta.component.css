@@ -1,0 +1,51 @@
+.table-vivero {
+  position: absolute;
+  width: 792px;
+  height: 335px;
+  left: 98px;
+  top: 467px;
+}
+
+.resumen {
+  position: absolute;
+  width: 792px;
+  height: 335px;
+  left: 98px;
+  top: 800px;
+}
+
+.left {
+  text-align: left;
+}
+
+.colId {
+  width: 50px;
+  font-weight: bold;
+  padding-left: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.colNombreComun {
+  width: 180px;
+  padding-left: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.colTipo {
+  width: 130px;
+  padding-left: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.colClima {
+  width: 400px;
+  padding-left: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.fondo {
+  background-color: #333A40;
+  color: white;
+  height: 50px;
+  padding-left: 10px;
+}
